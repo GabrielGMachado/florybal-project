@@ -1,113 +1,68 @@
 import Image from "next/image";
+import { Josefin_Sans, Poppins, Cabin } from "next/font/google";
+import bgimage1 from '@/app/assets/Barra_de_Chocolate_Simples_Smaller.svg';
+import bgimage2 from '@/app/assets/ManyChocolatesEditedSmaller.svg';
+import Especialista from "@/components/specialbox";
+
+const poppins = Poppins({
+  weight: ["400", "500"],
+  subsets: ["latin"],
+});
+
+const josefin = Josefin_Sans({
+  weight: ["400", "500"],
+  subsets: ["latin"],
+});
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div>
+      <div className="relative flex w-full items-center justify-center mt-[-230px] gap-[400px] mb-[-130px]">
+        
+        <div className="flex flex-col items-center w-1/2 mt-[500px] select-none">
+          <Image src={bgimage1} alt="Left Image" width={550} height={550} className="img1"/>  
         </div>
+        
+        <div className="absolute flex flex-col items-center justify-center max-w-[900px] text-[#421E14] text-center">
+          <h1 className={`${josefin.className} text-[87px] leading-[80px] font-bold mt-[100px]`}>
+            Chocolates Artesanais <br />Feitos com Paixão
+          </h1>
+
+          <p className={`${poppins.className} mt-5 w-[630px]`}>
+            A Florybal é uma joia entre os amantes de chocolates, conquistando paladares e corações com sua mistura única de ingredientes de alta qualidade e técnicas.
+          </p>
+
+          <button className={`${poppins.className} mt-10 py-2 px-5 rounded-[25px] bg-[#421E14] text-white font-extralight text-[15px] hover:bg-[#4d2920] hover:scale-[1.05] transition duration-200`}>
+            Comprar agora
+          </button>
+        </div>
+        
+        <div className="flex flex-col items-center w-1/2 mt-[500px] select-none">
+          <Image src={bgimage2} alt="Right Image" width={550} height={550} className="img2"/>  
+        </div>
+
       </div>
 
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+      <svg id="wave" className="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 340" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(66, 30, 20, 1)" offset="0%"></stop><stop stop-color="rgba(20.811, 9.771, 6.705, 1)" offset="100%"></stop></linearGradient></defs><path className="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,68L60,102C120,136,240,204,360,209.7C480,215,600,159,720,119C840,79,960,57,1080,73.7C1200,91,1320,147,1440,141.7C1560,136,1680,68,1800,68C1920,68,2040,136,2160,153C2280,170,2400,136,2520,153C2640,170,2760,238,2880,232.3C3000,227,3120,147,3240,136C3360,125,3480,181,3600,187C3720,193,3840,147,3960,136C4080,125,4200,147,4320,141.7C4440,136,4560,102,4680,79.3C4800,57,4920,45,5040,34C5160,23,5280,11,5400,11.3C5520,11,5640,23,5760,45.3C5880,68,6000,102,6120,102C6240,102,6360,68,6480,45.3C6600,23,6720,11,6840,56.7C6960,102,7080,204,7200,249.3C7320,295,7440,283,7560,243.7C7680,204,7800,136,7920,136C8040,136,8160,204,8280,226.7C8400,249,8520,227,8580,215.3L8640,204L8640,340L8580,340C8520,340,8400,340,8280,340C8160,340,8040,340,7920,340C7800,340,7680,340,7560,340C7440,340,7320,340,720,340C600,340,480,340,360,340C240,340,120,340,60,340L0,340Z"></path></svg>
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+      <div className="bg-[#421E14] h-screen flex justify-around">
+        <div>
+        <h1 className={`${poppins.className} text-[50px] text-white`}>*imagem*</h1>
+        </div>
+        <div className="flex flex-col items-center">
+          <h1 className={`${poppins.className} text-[50px] text-white`}>Produtos de destaque</h1>
+          <div className="flex gap-10">
+            <div className="flex flex-col gap-7">
+            <Especialista/>
+            <Especialista/>
+            </div>
+            <div className="flex flex-col gap-7 ">
+            <Especialista/>
+            <Especialista/>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
   );
 }
