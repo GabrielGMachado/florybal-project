@@ -38,4 +38,4 @@ Tecnologias usadas no projeto:
 
 ---
 
-We hope you enjoy the online shopping experience with Florybal!
+Esperamos que você goste do nosso website!
