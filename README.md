@@ -8,7 +8,7 @@ Aqui estão algumas das features do projeto:
 
 * Catálogo de Produtos: Exibição de uma vasta gama de chocolates, incluindo detalhes como descrição, preço e avaliações dos clientes.
 * Carrinho de Compras: Funcionalidade que permite adicionar, remover e atualizar a quantidade de produtos no carrinho de compras.
-* Processo de Pagamento: Integração com gateways de pagamento para um processo de checkout seguro e eficiente.
+* Processo de Pagamento: Integração com sistemas de pagamento para garantir um checkout seguro e eficiente.
 * Autenticação de Usuários: Sistema de login e registro para clientes, incluindo recuperação de senha e autenticação via redes sociais.
 * Painel Administrativo: Área restrita para gerenciar produtos, pedidos e usuários, com permissões de acesso diferenciadas.
 * Busca e Filtragem: Funcionalidade de pesquisa e filtros avançados para facilitar a localização de produtos específicos.
