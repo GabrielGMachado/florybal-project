@@ -4,7 +4,7 @@
 
 <h2>🧐 Features</h2>
 
-Here're some of the project's best features:
+Aqui estão algumas das features do projeto:
 
 * Catálogo de Produtos: Exibição de uma vasta gama de chocolates, incluindo detalhes como descrição, preço e avaliações dos clientes.
 * Carrinho de Compras: Funcionalidade que permite adicionar, remover e atualizar a quantidade de produtos no carrinho de compras.
@@ -16,7 +16,7 @@ Here're some of the project's best features:
 
 <h2>💻 Built with</h2>
 
-Technologies used in the project:
+Tecnologias usadas no projeto:
 
 * Next.js
 * React
@@ -27,14 +27,14 @@ Technologies used in the project:
 #### 👨‍💻 Developers
 
 - **Gabriel**
-  - GitHub: [GabrielGitHub](https://github.com/GabrielGitHub)
-  - Email: gabriel@florybal.com
-  - Papel: Desenvolvedor Frontend, responsável pela interface do usuário e experiência do cliente.
+  - GitHub: [GabrielGMachado](https://github.com/GabrielGMachado)
+  - Email: bielgaelzermachado@gmail.com
+  - Papel: Desenvolvedor do Website.
 
 - **Iago**
-  - GitHub: [IagoGitHub](https://github.com/IagoGitHub)
-  - Email: iago@florybal.com
-  - Papel: Desenvolvedor Backend, responsável pela API, integração com banco de dados e lógica de negócios.
+  - GitHub: [Iago-Boardy](https://github.com/Iago-Boardy)
+  - Email: iagogol2006@gmail.com
+  - Papel: Desenvolvedor do Website.
 
 ---
 
