@@ -1,41 +1,41 @@
-<p align="center"><img src="https://socialify.git.ci/GabrielGMachado/florybal-project/image?description=1&amp;descriptionEditable=Gabriel%20Machado%20e%20Iago%20Padilha&amp;name=1&amp;theme=Light" alt="project-image"></p>
+<h1 align="center">📊 Florybal Online Sales Platform</h1>
 
-<p id="description">Este projeto é uma plataforma de vendas online para a Florybal, uma renomada marca de chocolates conhecida pela sua qualidade e sabor incomparáveis. Desenvolvido utilizando o framework Next.js, este projeto tem como objetivo proporcionar uma experiência de compra rápida, intuitiva e agradável para os amantes de chocolate.</p>
+<p id="description">This project is an online sales platform for Florybal, a renowned chocolate brand known for its quality and unmatched flavor. Developed using the Next.js framework, this project aims to provide a fast, intuitive, and enjoyable shopping experience for chocolate lovers.</p>
 
-<h2>🧐 Features</h2>
+## 🧐 Features
 
-Aqui estão algumas das features do projeto:
+Here are some of the features of the project:
 
-* Catálogo de Produtos: Exibição de uma vasta gama de chocolates, incluindo detalhes como descrição, preço e avaliações dos clientes.
-* Carrinho de Compras: Funcionalidade que permite adicionar, remover e atualizar a quantidade de produtos no carrinho de compras.
-* Processo de Pagamento: Integração com sistemas de pagamento para garantir um checkout seguro e eficiente.
-* Autenticação de Usuários: Sistema de login e registro para clientes, incluindo recuperação de senha e autenticação via redes sociais.
-* Painel Administrativo: Área restrita para gerenciar produtos, pedidos e usuários, com permissões de acesso diferenciadas.
-* Busca e Filtragem: Funcionalidade de pesquisa e filtros avançados para facilitar a localização de produtos específicos.
-* Promoções e Descontos: Sistema para aplicar cupons de desconto e promoções especiais.
+- Product Catalog: Display a wide range of chocolates, including details such as description, price, and customer reviews.
+- Shopping Cart: Functionality to add, remove, and update the quantity of products in the shopping cart.
+- Checkout Process: Integration with payment systems to ensure a secure and efficient checkout.
+- User Authentication: Login and registration system for customers, including password recovery and authentication via social networks.
+- Admin Panel: Restricted area to manage products, orders, and users, with differentiated access permissions.
+- Search and Filtering: Search functionality and advanced filters to facilitate finding specific products.
+- Promotions and Discounts: System to apply discount coupons and special promotions.
 
-<h2>💻 Built with</h2>
+## 💻 Built with
 
-Tecnologias usadas no projeto:
+Technologies used in the project:
 
-* Next.js
-* React
-* Tailwind CSS
+- Next.js
+- React
+- Tailwind CSS
 
-<h2>🎉 Contributors</h2>
+## 🎉 Contributors
 
 #### 👨‍💻 Developers
 
 - **Gabriel**
   - GitHub: [GabrielGMachado](https://github.com/GabrielGMachado)
   - Email: bielgaelzermachado@gmail.com
-  - Papel: Desenvolvedor do Website.
+  - Role: Website Developer
 
 - **Iago**
   - GitHub: [Iago-Boardy](https://github.com/Iago-Boardy)
   - Email: iagogol2006@gmail.com
-  - Papel: Desenvolvedor do Website.
+  - Role: Website Developer
 
 ---
 
-Esperamos que você goste do nosso website!
+We hope you enjoy our website!
