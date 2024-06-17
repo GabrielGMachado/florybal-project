@@ -1,4 +1,4 @@
-<h1 align="center">📊 Florybal Online Sales Platform</h1>
+<h1 align="center">📊 Florybal Project</h1>
 
 <p id="description">This project is an online sales platform for Florybal, a renowned chocolate brand known for its quality and unmatched flavor. Developed using the Next.js framework, this project aims to provide a fast, intuitive, and enjoyable shopping experience for chocolate lovers.</p>
 
