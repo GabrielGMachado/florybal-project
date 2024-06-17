@@ -12,8 +12,7 @@ Here are some of the features of the project:
 - 🔐 **User Authentication:** Login and registration system for customers, including password recovery and authentication via social networks.
 - 🛠️ **Admin Panel:** Restricted area to manage products, orders, and users, with differentiated access permissions.
 - 🔍 **Search and Filtering:** Search functionality and advanced filters to facilitate finding specific products.
-- 🎟️ **Promotions and Discounts:** System to apply discount coupons and special promotions.
-
+  
 ## 💻 Built with
 
 Technologies used in the project:
