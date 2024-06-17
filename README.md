@@ -6,13 +6,13 @@
 
 Here are some of the features of the project:
 
-- Product Catalog: Display a wide range of chocolates, including details such as description, price, and customer reviews.
-- Shopping Cart: Functionality to add, remove, and update the quantity of products in the shopping cart.
-- Checkout Process: Integration with payment systems to ensure a secure and efficient checkout.
-- User Authentication: Login and registration system for customers, including password recovery and authentication via social networks.
-- Admin Panel: Restricted area to manage products, orders, and users, with differentiated access permissions.
-- Search and Filtering: Search functionality and advanced filters to facilitate finding specific products.
-- Promotions and Discounts: System to apply discount coupons and special promotions.
+- 🛍️ **Product Catalog:** Display a wide range of chocolates, including details such as description, price, and customer reviews.
+- 🛒 **Shopping Cart:** Functionality to add, remove, and update the quantity of products in the shopping cart.
+- 💳 **Checkout Process:** Integration with payment systems to ensure a secure and efficient checkout.
+- 🔐 **User Authentication:** Login and registration system for customers, including password recovery and authentication via social networks.
+- 🛠️ **Admin Panel:** Restricted area to manage products, orders, and users, with differentiated access permissions.
+- 🔍 **Search and Filtering:** Search functionality and advanced filters to facilitate finding specific products.
+- 🎟️ **Promotions and Discounts:** System to apply discount coupons and special promotions.
 
 ## 💻 Built with
 
