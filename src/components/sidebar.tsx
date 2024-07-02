@@ -32,7 +32,7 @@ const hind = Hind_Siliguri({
 
 const menuList = [
   { link: "/", icon: <Home className="w-7 h-7" />, text: "Início" },
-  { link: "/produtos/produtos", icon: <PackageSearch className="w-7 h-7" />, text: "Produtos" },
+  { link: "/produtos", icon: <PackageSearch className="w-7 h-7" />, text: "Produtos" },
   { link: "/favoritos/favoritos", icon: <Heart className="w-7 h-7" />, text: "Favoritos" },
   { link: "/carrinho/carrinho", icon: <ShoppingCart className="w-7 h-7" />, text: "Carrinho" },
   { link: "/historico/historico", icon: <History className="w-7 h-7" />, text: "Histórico" },
@@ -97,10 +97,11 @@ export default function Sidebar() {
 
             <div className="mt-2 flex items-center justify-between rounded-xl">
             <p className="flex items-center gap-2 w-full">
-            <Avatar className={`${isOpen ? '' : 'hidden'}`}>
+            <Link href="/cadastrar"><Avatar className={`${isOpen ? '' : 'hidden'}`}>
+              
             <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" className={`${isOpen ? '' : 'hidden'}`}/>
             <AvatarFallback>CN</AvatarFallback>
-            </Avatar>
+            </Avatar></Link>
               <span className={`${isOpen ? '' : 'hidden'} flex flex-col`}>
                 <span className="font-bold text-[16px] mb-[-2px]">UserName</span>
                 <span className="text-[14px]">Email@Gmail.com</span>
