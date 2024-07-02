@@ -36,7 +36,7 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-          </div
+          </div>
           <div className="line w-full border-b-[2px] rounded-[20px] border-white"></div>
           <div className="flex justify-around text-white">
             <p>@2024 - Florybal Ivoti</p>
