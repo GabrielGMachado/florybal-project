@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">📊 Florybal Project</h1>
 
-## Getting Started
+<p id="description">This project is an online sales platform for Florybal, a renowned chocolate brand known for its quality and unmatched flavor. Developed using the Next.js framework, this project aims to provide a fast, intuitive, and enjoyable shopping experience for chocolate lovers. All code is written in Portuguese (BR).</p>
 
-First, run the development server:
+## 🧐 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Here are some of the features of the project:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🛍️ **Product Catalog:** Display a wide range of chocolates, including details such as description, price, and customer reviews.
+- 🛒 **Shopping Cart:** Functionality to add, remove, and update the quantity of products in the shopping cart.
+- 💳 **Checkout Process:** Integration with payment systems to ensure a secure and efficient checkout.
+- 🔐 **User Authentication:** Login and registration system for customers, including password recovery and authentication via social networks.
+- 🛠️ **Admin Panel:** Restricted area to manage products, orders, and users, with differentiated access permissions.
+- 🔍 **Search and Filtering:** Search functionality and advanced filters to facilitate finding specific products.
+  
+## 💻 Built with
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Technologies used in the project:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Next.js
+- React
+- Tailwind CSS
 
-## Learn More
+## 🎉 Contributors
 
-To learn more about Next.js, take a look at the following resources:
+#### 👨‍💻 Developers
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Gabriel**
+  - GitHub: [GabrielGMachado](https://github.com/GabrielGMachado)
+  - Email: bielgaelzermachado@gmail.com
+  - Role: Website Developer
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Iago**
+  - GitHub: [Iago-Boardy](https://github.com/Iago-Boardy)
+  - Email: iagogol2006@gmail.com
+  - Role: Website Developer
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+We hope you enjoy our website!
