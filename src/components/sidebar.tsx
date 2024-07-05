@@ -60,8 +60,8 @@ export default function Sidebar() {
     <div>
       <AnimatePresence>
         <motion.nav
-          initial={{ width: windowWidth <= 640 ? (isOpen ? 280 : 0) : (isOpen ? 280 : 73) }}
-          animate={{ width: windowWidth <= 640 ? (isOpen ? 280 : 0) : (isOpen ? 280 : 73) }}
+          initial={{ width: windowWidth <= 800 ? (isOpen ? 280 : 0) : (isOpen ? 280 : 73) }}
+          animate={{ width: windowWidth <= 800 ? (isOpen ? 280 : 0) : (isOpen ? 280 : 73) }}
           exit={{ width: 0 }}
           className="flex flex-col justify-between sidebar bg-white h-screen fixed z-20 text-[#421E14] border-r border-[#421E14]/30 overflow-hidden"
         >
@@ -115,15 +115,14 @@ export default function Sidebar() {
         </motion.nav>
       </AnimatePresence>
 
-      <header className="flex items-center p-4 bg-white border-b border-[#421E14]/30 ">
-        <div className="flex items-center gap-5 grow px-6">
+      <header className="flex items-center p-4 bg-white">
+        <div className="flex items-center gap-5 grow px-2 ">
         <Menu className="w-7 h-7 text-[#421E14]" onClick={handleToggle} />
-          <h2 className={`${hind.className} font-normal text-[26px] text-[#421E14] select-none`}>  
-            Florybal Ivoti
-          </h2>
         </div>
-        <Image src={Logo} width={50} alt="Logo Florybal" />
+        
+        <Image src={Logo} width={51} alt="Logo Florybal" />
       </header>
+      <div className="border-b border-[#421E14]/30"></div>
     </div>
   );
 }

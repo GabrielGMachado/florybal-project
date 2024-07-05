@@ -11,7 +11,7 @@ const poppins = Poppins({
 export default function Especialista() {
   return <div className={`${poppins.className} bg-zinc-100 flex flex-col border rounded-xl border-[#421E14]/70 max-w-[240px] p-4 text-[#421E14] gap-3`}>
     <Image src={FotoProduto} className="w-100 h-100 mb-2 hover:bg-zinc-100 transition duration-400 rounded-xl p-2" alt="Imagem produtos"/>
-    <h1 className="text-[20px] font-semibold mb-[-8px]">Drâgeas</h1>
+    <h1 className="text-[20px] font-semibold mb-[-8px]">Drágeas</h1>
     <p className="text-[#3F3F46]/80">*Pequena explicação do produto*</p>
       <h1 className="text-[18px] font-medium ">Por: R$79,90</h1>
       <button className="border rounded-xl font-medium py-1 px-3 text-white border-[#421E14] bg-[#421E14] hover:bg-white hover:text-[#421E14] transition duration-300">Comprar</button>
